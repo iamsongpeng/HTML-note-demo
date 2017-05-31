@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>发现个好玩儿的事儿</h2>
+    <h3>select 标签和 option 标签; input 标签和 checked 属性</h3>
+    <form action="#" method="POST">
+        最喜爱城市：
+        <select >
+            <option>--请选择--</option>
+            <option>沈阳市</option>
+            <option>辽阳市</option>
+            <!--<option selected="selected">大连市</option>-->
+            <option selected=false>大连市</option> <!-- 这样也可以 -->
+            <!--<option selected=null>大连市</option>--> <!-- 这样也可以 -->
+        </select>
+        <br/>
+        <!--篮球：<input type="checkbox" name="hobby" value="basketball" checked="checked">-->
+        <!--篮球：<input type="checkbox" name="hobby" value="basketball" checked=false>--> <!-- 这样也可以 -->
+        爱好:
+        篮球<input type="checkbox" name="hobby" value="basketball" checked=null> <!-- 这样也可以 -->
+        羽毛球<input type="checkbox" name="hobby" value="badminton">
+        足球<input type="checkbox" name="hobby" value="football">
+        <br/>
+        <button type="submit">提交</button>
+    </form>
+    <hr/>
+    <p>具体发生了什么, 请看源代码!</p>
+</body>
+</html>
